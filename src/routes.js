@@ -1,6 +1,7 @@
-import './App.scss'
+import './pages/app/App.scss'
 import Contato from './pages/contato/index.jsx';
-import App from './App.jsx';
+import App from './pages/app/App.jsx';
+import NotFound from './pages/NotFound/index.jsx';
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 
 export default function Routess() {
@@ -9,6 +10,8 @@ export default function Routess() {
             <Routes>
                 <Route path="/" element={<App />} />
                 <Route path="/contato" element={<Contato />} />
+
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>
     )
