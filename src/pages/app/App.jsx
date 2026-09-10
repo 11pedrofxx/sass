@@ -5,10 +5,18 @@ export default function App() {
   return (
     <div className="App">
     
-    <h1>São Paulo</h1>
-    <img src="/assets/images/saopaulo.jfif" alt=""></img>
-    <i class="fa-solid fa-s"></i>
-    <Link to="/contato">Contato</Link>
-    <Link to="/formulario">Formulário</Link></div>
+   
+    <section className="section">
+
+      <h1>Seja bem vindo ao APP</h1>
+
+      <Link to='/contato'> <button>Ir para contato</button></Link>
+      <Link to="/formulario"> <button>Ir para formulário</button> </Link>
+
+    </section>
+    
+    
+    
+    </div>
   );
 }

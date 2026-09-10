@@ -6,8 +6,17 @@ export default function NotFound() {
     return(
 
         <div className="Pagina-notfound">
-            <h1>Pagina não encontrada</h1>
-            <Link to="/">Voltar</Link>
+
+
+        
+            <section>
+                <h1>A pagina que vc está procurando não existe ou foi removida</h1>
+                <Link to="/"><button>Voltar para a pagina inicial</button></Link>
+            </section>
+
+            <img src="/assets/images/notfound.jpg" alt="" />
+
+
         </div>
 
     )

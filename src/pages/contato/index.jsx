@@ -7,10 +7,12 @@ export default function Contato() {
 
         <div className='Pagina-contato'>
 
-        <h1>Titulo</h1>
-
-        <h2>Nome</h2>
-        <Link to="/">Voltar</Link>
+        <section>
+            <h1>Pagina de contato</h1>
+            <h2>Entre em contato conosco:</h2>
+            <h2>43214321441</h2>
+            <Link to="/">Voltar</Link>
+        </section>
 
         </div>
 
