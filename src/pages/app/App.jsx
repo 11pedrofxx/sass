@@ -9,6 +9,6 @@ export default function App() {
     <img src="/assets/images/saopaulo.jfif" alt=""></img>
     <i class="fa-solid fa-s"></i>
     <Link to="/contato">Contato</Link>
-    </div>
+    <Link to="/formulario">Formulário</Link></div>
   );
 }

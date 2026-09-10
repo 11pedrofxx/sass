@@ -1,0 +1,56 @@
+.secao{
+    background-color: gray;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+
+    .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+
+  h1{
+
+    font-family: monospace;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+  }
+
+  label{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  } 
+
+  
+
+    input[type="text"], select{
+        width: 300px;
+        height: 30px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+    }
+
+    .cargo{
+
+    
+        gap: 3px;
+
+    }
+
+}
+
+
+
+
+}
