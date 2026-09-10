@@ -11,6 +11,11 @@ export default function Formulario() {
     alert("Digitou: " + novovalor);
   }
 
+  function clicou() {
+    alert("Formulário enviado com sucesso!");
+  }
+  
+
   return (
     <div>
       <section className="secao">
@@ -37,45 +42,18 @@ export default function Formulario() {
           </select>
 
           <div className="cargo">
-            <label>Cargo:</label>
-            <label>
-              <input
-                onChange={digitou}
-                type="radio"
-                name="cargo"
-                value={"T.I"}
-              />{" "}
-              T.I
-            </label>
-            <label>
-              <input
-                onChange={digitou}
-                type="radio"
-                name="cargo"
-                value={"Marketing"}
-              />{" "}
-              Marketing
-            </label>
-            <label>
-              <input
-                onChange={digitou}
-                type="radio"
-                name="cargo"
-                value={"Administrativo"}
-              />{" "}
-              Administrativo
-            </label>
-            <label>
-              <input
-                onChange={digitou}
-                type="radio"
-                name="cargo"
-                value={"Outro"}
-              />{" "}
-              Outro
-            </label>
-          </div>
+
+                <label>Cargo:</label>
+                <label><input onChange={digitou} type="radio" name="cargo" value={'T.I'}/> T.I</label>
+                <label><input onChange={digitou} type="radio" name="cargo" value={'Marketing'}/> Marketing</label>
+                <label><input onChange={digitou} type="radio" name="cargo" value={'Administrativo'}/> Administrativo</label>
+                <label><input onChange={digitou} type="radio" name="cargo" value={'Outro'}/> Outro</label>
         </div>
+        </div>
+            <br />
+        <button onClick={clicou} >Enviar</button>
+
+        <br />
       </section>
     </div>
   );
