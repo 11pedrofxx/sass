@@ -13,6 +13,7 @@ export default function App() {
       <Link to='/contato'> <button>Ir para contato</button></Link>
       <Link to="/formulario"> <button>Ir para formulário</button> </Link>
       <Link to="/varestado"> <button> Ir para o contador/Variavel de Estado</button> </Link>
+      <Link to="/calculadora"> <button>Calculadora</button> </Link>
 
     </section>
     
