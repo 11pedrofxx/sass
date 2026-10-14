@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './index.scss';
+import Cabecalho from "../../componentes/cabecalho";
 
 export default function VarEstado() {
     const [contador, setContador] = useState(0);
@@ -59,6 +60,7 @@ export default function VarEstado() {
 
     return (
         <div className="corpo" style={{ backgroundColor: cor }}> 
+        <Cabecalho/>
             
             <section className='secao'>
                     <h1>CONTADOR</h1>

@@ -1,5 +1,6 @@
 import "./index.scss";
 import { Link } from "react-router-dom";
+import Cabecalho from "../../componentes/cabecalho";
 
 export default function Formulario() {
   function passou() {
@@ -18,6 +19,9 @@ export default function Formulario() {
 
   return (
     <div>
+      <Cabecalho
+            nome="TITULO"
+          />
       <section className="secao">
         <h1 onMouseMove={passou}>INSCRIÇÃO</h1>
 

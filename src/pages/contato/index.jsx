@@ -1,11 +1,13 @@
 import './index.scss'
 import {Link } from 'react-router-dom'
+import Cabecalho from '../../componentes/cabecalho'
 
 export default function Contato() {
 
     return(
 
         <div className='Pagina-contato'>
+            <Cabecalho/>
 
         <section>
             <h1>Pagina de contato</h1>

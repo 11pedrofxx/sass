@@ -1,11 +1,15 @@
 import './App.scss'
 import { Link } from 'react-router-dom';
+import Cabecalho from '../../componentes/cabecalho';
 
 export default function App() {
   return (
     <div className="App">
-    
-   
+
+    <Cabecalho
+      nome="TITULO"
+    />
+
     <section className="section">
 
       <h1>Seja bem vindo ao APP</h1>

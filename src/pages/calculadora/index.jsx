@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './index.scss'
+import Cabecalho from '../../componentes/cabecalho';
 
 export default function Calculadora() {
 
@@ -47,6 +48,8 @@ export default function Calculadora() {
     return(
 
         <div className='pagina calculadora'>
+
+        <Cabecalho/>
 
         <section className='secao'>
 
