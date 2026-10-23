@@ -6,6 +6,7 @@ import Formulario from './pages/formulario/index.jsx';
 import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 import VarEstado from './pages/varestado/index.jsx';
 import Calculadora from './pages/calculadora/index.jsx';
+import Ingressos from './pages/ingresso/index.jsx';
 
 export default function Routess() {
     return(
@@ -16,6 +17,7 @@ export default function Routess() {
                 <Route path='/formulario' element={<Formulario />} />
                 <Route path="/varestado" element={<VarEstado />} />
                 <Route path="/calculadora" element={<Calculadora />} />
+                <Route path="/ingressos" element={<Ingressos />} />
  
                 <Route path="*" element={<NotFound />} />
 
